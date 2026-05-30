@@ -3,7 +3,7 @@
 ## Overview
 This challenge involves the forensic analysis of a disk image to recover a hidden flag. The objective is to utilize SleuthKit to reconstruct historical file system activities and identify evidence of unauthorized or suspicious user behavior.
 
-![](TImeline1_overview.png)
+![](assets/TImeline1_overview.png)
 
 The challenge presents a compressed disk image that requires careful investigation to locate a specific hidden artifact. The final extracted data must be formatted according to the picoCTF flag structure to be accepted.
 
