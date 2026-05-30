@@ -7,7 +7,7 @@ This challenge involves the forensic analysis of a disk image to recover a hidde
 
 The challenge presents a compressed disk image that requires careful investigation to locate a specific hidden artifact. The final extracted data must be formatted according to the picoCTF flag structure to be accepted.
 
-##Description
+## Description
 "Can you find the flag in this disk image? Wrap what you find in the picoCTF flag Format"
 
 ## Strategy
