@@ -25,13 +25,13 @@ My methodology focused on establishing a controlled environment for evidence, fo
 first decompressed the disk image (partition4.img.gz) to extract the raw binary data, which is a prerequisite for file system parsing.
 
 ### 2. Timeline Analysis
-![](TImeline1_time lineanalysis.png)
+![](TImeline1_timeline_analysis.png)
 
 `fls -r -m / partition4.img > body.txt`
 `mactime -b body.txt > timeline.txt`
 I executed fls to enumerate files and mactime to construct a chronological metadata timeline. This transformed raw file system data into an indexed, human-readable format.
 
-![](TImeline1_timeline analysis 2.png)
+![](TImeline1_timeline_analysis2.png)
 
 ### 3. Searching
 Performed a directory-level sweep of /etc/. This revealed Inode 32716 as a high-priority artifact.
