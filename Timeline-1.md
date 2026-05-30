@@ -1,7 +1,9 @@
 # CTF Write-up: Timeline 1 (Forensics)
 
 ## Overview
-This challenge involves the forensic analysis of a disk image to recover a hidden flag.
+This challenge involves the forensic analysis of a disk image to recover a hidden flag. The objective is to utilize SleuthKit to reconstruct historical file system activities and identify evidence of unauthorized or suspicious user behavior..
+
+![From the hint given it is said to create a MAC timeline. Afterwards to focus and pay close attention to the timestamps. Lastly to filter “macb”](TImeline1_overview.png)
 
 ## Strategy
 * **Timeline Creation**: Used SleuthKit to track file system modifications.
